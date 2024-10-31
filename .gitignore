@@ -1,0 +1,26 @@
+# Archivos de Terraform
+*.tfstate
+*.tfstate.*
+*.exe
+
+# Archivos de configuración y credenciales
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+terraform.tfplan
+*.backup
+*.log
+*.out
+
+secret.tfvars
+*.pem
+*.key
+
